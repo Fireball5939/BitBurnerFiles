@@ -1,3 +1,3 @@
-export async function main(ns) {
-    ns.hack(ns.args[0]);
+export async function main(iJustReallyWantToPissOffXsinxWithThisCodeForNoReasonAtAll) {
+    iJustReallyWantToPissOffXsinxWithThisCodeForNoReasonAtAll.hack(iJustReallyWantToPissOffXsinxWithThisCodeForNoReasonAtAll.args[0]);
 }
