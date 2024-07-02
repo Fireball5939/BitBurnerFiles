@@ -136,3 +136,8 @@ NetscriptDefinitions.d.ts
 
 mirror/
 build/
+
+# Player defined files
+
+# Don't push the test ifle to the repo, this is a personal playground
+server/home/Scripts/test.js

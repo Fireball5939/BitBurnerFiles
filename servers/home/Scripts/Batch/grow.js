@@ -1,3 +1,3 @@
-export async function main(iJustReallyWantToPissOffXsinxWithThisCodeForNoReasonAtAll) {
-    iJustReallyWantToPissOffXsinxWithThisCodeForNoReasonAtAll.grow(iJustReallyWantToPissOffXsinxWithThisCodeForNoReasonAtAll.args[0]);
+export async function main(ns) {
+    ns.grow(ns.args[0]);
 }

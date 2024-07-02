@@ -24,29 +24,6 @@ let serverList = ns.scan(`home`);
 let scannedServers = [];
 let serverClasses = [];
 
-// Declare classes
-class Server 
-{
-    constructor(ip, name, cores, root, ram, minSec, maxMon, pServ, hackReq) 
-    {
-        this.ip = ip;
-        this.dnsName = name;
-        this.cores = cores;
-        this.hasRoot = root;
-        this.maxRam = ram;
-        this.minSec = minSec;
-        this.maxMon = maxMon;
-        this.pServ = pServ;
-        this.hackReq = hackReq
-    }
-
-    inform(type, destination) 
-    {
-        if (destination = `terminal`) ns.tprint(`Information about this server is: ${type}`);
-        else if (destination = `logs`) ns.print(`Information about this server is: ${type}`);
-        else console.log(`Information about this server is: ${type}`);
-    }
-}
 
 // Check to see if we have a given port buster
 if (ns.fileExists(`BruteSSH.exe`, `home`)) hasSSH = true;

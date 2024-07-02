@@ -1,3 +1,3 @@
-export async function main(iJustReallyWantToPissOffXsinxWithThisCodeForNoReasonAtAll) {
-    iJustReallyWantToPissOffXsinxWithThisCodeForNoReasonAtAll.weaken(iJustReallyWantToPissOffXsinxWithThisCodeForNoReasonAtAll.args[0]);
+export async function main(ns) {
+    ns.weaken(ns.args[0]);
 }
